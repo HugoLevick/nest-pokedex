@@ -9,8 +9,6 @@ import { ConfigModule } from '@nestjs/config';
 import { EnvConfiguration } from './config/app.config';
 import { JoiValidationSchema } from './config/joi.validation';
 
-console.log(process.env.MONGODB);
-
 @Module({
   imports: [
     ConfigModule.forRoot({
